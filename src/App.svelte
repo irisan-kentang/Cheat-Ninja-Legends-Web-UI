@@ -1,9 +1,5 @@
 <script>
-	const local = true
 	let URL = "http://103.176.78.226:10001"
-	if (local === true) {
-		URL = "http://localhost:5000"
-	}
 	let loop = "loop_1"
 	let uid = ""
 	let mission_id = 1
